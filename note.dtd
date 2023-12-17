@@ -1,0 +1,27 @@
+<!-- Codi corregit pel grup: Dory Fruit Company-->
+<!ELEMENT ticompiuter (portatiles,dato_client)>
+<!ELEMENT portatiles (portatil+)>
+<!ATTLIST portatil id CDATA #REQUIRED>
+<!ELEMENT portatil (marca, modelo, procesador, ram, 
+alimentacion, controlador_grafico, bateria, 
+sistema_operativo, precio, stock, descripcion)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT modelo (#PCDATA)>
+<!ELEMENT procesador (#PCDATA)>
+<!ELEMENT ram (#PCDATA)>
+<!ELEMENT alimentacion (#PCDATA)>
+<!ELEMENT controlador_grafico (#PCDATA)>
+<!ELEMENT bateria (#PCDATA)>
+<!ELEMENT sistema_operativo (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT stock (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT dato_client (client+)>
+<!ELEMENT client (nombre_apellido, telefon, dni, carrito)>
+<!ATTLIST client id CDATA #REQUIRED>
+<!ELEMENT nombre_apellido (#PCDATA)>
+<!ELEMENT telefon (#PCDATA)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT carrito (id_element*)>
+<!ELEMENT id_element (#PCDATA)>
+<!ATTLIST  id_element ref CDATA #REQUIRED>

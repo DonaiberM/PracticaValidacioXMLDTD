@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Codi corregit pel grup: Dory Fruit Company-->
+<!DOCTYPE ticompiuter SYSTEM "note.dtd">
+<ticompiuter>
+    <portatiles>
+        <portatil id="1">
+            <marca>
+                Lenovo
+            </marca>
+            <modelo>ThinkPad T14s</modelo>
+            <procesador>
+                Intel Core i5-1240P, 12C (4P + 8E) / 16T, P-core 1.7 / 4.4GHz, E-core 1.2 / 3.3GHz,
+                12MB
+            </procesador>
+            <ram>
+                16GB Soldered LPDDR5-4800
+            </ram>
+            <alimentacion>
+                512GB SSD M.2 2280 PCIe x4 NVMe Opal 2.0
+            </alimentacion>
+            <controlador_grafico>
+                Integrada Intel Iris Xe Graphics
+            </controlador_grafico>
+            <bateria>
+                Polímero de Litio de 57 Wh
+            </bateria>
+            <sistema_operativo>
+                Windows 11 Pro 64 bits
+            </sistema_operativo>
+            <precio>
+                1.665,86€
+            </precio>
+            <stock>
+                10
+            </stock>
+            <descripcion>
+                Portátil Apple MacBook Pro con procesador Intel Core i5, 8 GB de RAM y 256 GB de
+                almacenamiento SSD.
+            </descripcion>
+        </portatil>
+        <portatil id="2">
+            <marca>
+                ASUS
+            </marca>
+            <modelo>
+                xpertBook B7 Flip B7402FEA-LA0488X
+            </modelo>
+            <procesador>
+                Intel® Core™ i7 de 11ma Generación
+            </procesador>
+            <ram>
+                DDR4-SDRAM 16 GB
+            </ram>
+            <alimentacion>
+                NVMe,PCI Express 3.0 SSD 512 GB
+            </alimentacion>
+            <controlador_grafico>
+                Intel Iris Xe Graphics
+            </controlador_grafico>
+            <bateria>
+                Ión de litio 63 Wh
+            </bateria>
+            <sistema_operativo>
+                Windows 11 Pro
+            </sistema_operativo>
+            <precio>
+                1.448,99€
+            </precio>
+            <stock>
+                5
+            </stock>
+            <descripcion>
+                Portátil Acer Aspire 5 con procesador AMD Ryzen 5, 8 GB de RAM y 512 GB de
+                almacenamiento SSD.
+            </descripcion>
+        </portatil>
+        <portatil id="3">
+            <marca>
+                Acer
+            </marca>
+            <modelo>
+                Nitro 5 AN515-58-77YB
+            </modelo>
+            <procesador>
+                Intel® Core™ i7-12650H 3.5 GHz
+            </procesador>
+            <ram>
+                32GB DDR5
+            </ram>
+            <alimentacion>
+                1024GB PCIe NVMe SED SSD
+            </alimentacion>
+            <controlador_grafico>
+                NVIDIA® GeForce RTX™ 4060 8G-GDDR6 (2C*512*16*4) 16Gbps
+            </controlador_grafico>
+            <bateria>
+                57Wh Li-ion battery
+            </bateria>
+            <sistema_operativo>
+                Sin sistema operativo
+            </sistema_operativo>
+            <precio>
+                1099,00€
+            </precio>
+            <stock>
+                1
+            </stock>
+            <descripcion>
+                Portátil HP Pavilion 15 con procesador Intel Core i3, 4 GB de RAM y 256 GB de
+                almacenamiento SSD.
+            </descripcion>
+        </portatil>
+    </portatiles>
+
+    <dato_client>
+        <client id="c1">
+            <nombre_apellido>Briana Alarcon</nombre_apellido>
+            <telefon>697430033</telefon>
+            <dni>09876543A</dni>
+            <carrito>
+                <id_element ref="2"></id_element>
+            </carrito>
+        </client>
+        <client id="c2">
+            <nombre_apellido>Joela Añon</nombre_apellido>
+            <telefon>668456789</telefon>
+            <dni>98706543Y</dni>
+            <carrito>
+                <id_element ref="1"></id_element>
+            </carrito>
+        </client>
+        <client id="c3">
+            <nombre_apellido>Bijisus lapizon</nombre_apellido>
+            <telefon>758694763</telefon>
+            <dni>S875764538</dni>
+            <carrito>
+                <id_element ref="3"></id_element>
+            </carrito>
+        </client>
+    </dato_client>
+</ticompiuter>
